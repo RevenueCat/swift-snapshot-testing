@@ -21,7 +21,7 @@ jobs:
         run: brew install swift-format
       - name: Format
         run: make format
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a # v4.16.0
         with:
           commit_message: Run swift-format
           branch: 'main'
